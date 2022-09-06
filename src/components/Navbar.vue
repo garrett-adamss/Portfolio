@@ -19,12 +19,13 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <router-link
+          <!-- <router-link
             :to="{ name: 'About' }"
             class="btn text-success lighten-30 selectable text-uppercase"
           >
             About
-          </router-link>
+          </router-link> -->
+          <a href="#about" class="btn text-success lighten-30 selectable text-uppercase"></a> 
         </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
