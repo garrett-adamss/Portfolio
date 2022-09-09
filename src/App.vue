@@ -1,6 +1,11 @@
 <template>
   <header>
-    <Navbar />
+    <div class="row align-items-center">
+    <h2 class="col-9 title"><b>Portfolio</b></h2>
+    <a href="#" class="nav-title tags col-1">About me</a>
+    <a href="#" class="nav-title tags col-1">Projects</a>
+    <a href="#" class="nav-title tags col-1">Contact</a>
+  </div>
   </header>
   <main>
     <!-- <router-view /> -->
@@ -32,4 +37,21 @@ export default {
 </script>
 <style lang="scss">
 @import "./assets/scss/main.scss";
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+header {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  padding: 30px;
+  font-family: 'Roboto Mono', monospace
+}
+.nav-title{
+  color: black;
+}
 </style>
