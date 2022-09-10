@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div class="container-fluid contact">
         <h1 class="d-flex justify-content-center p-2"><b>Contact</b></h1>
         <div class="row justify-content-center p-1">
             <img class="col-1" src="https://www.freepnglogos.com/uploads/black-email-logo-png-0.png" alt="phone">
@@ -38,10 +38,16 @@ export default {
 
 
 <style lang="scss" scoped>
+.contact{ 
+    min-height: 80vh;
+}
 img {
     height: 2.3em;
     object-fit: scale-down;
     object-position: center;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
 }
 .form-size{
     width: 43%;

@@ -15,9 +15,9 @@
   </main>
   <footer>
     <div class="row align-items-center justify-content-around p-3">
-      <a href="https://www.linkedin.com/in/garrett-adamss/" class="footer-title col-2">LinkedIn</a>
-      <a href="https://github.com/garrett-adamss" class="footer-title col-2">Github</a>
-      <a href="https://www.instagram.com/garrett.adamsss/" class="footer-title col-2">Instagram</a>
+      <a href="https://www.linkedin.com/in/garrett-adamss/" class="footer-title col-4 text-center">LinkedIn</a>
+      <a href="https://github.com/garrett-adamss" class="footer-title col-4 text-center">Github</a>
+      <a href="https://www.instagram.com/garrett.adamsss/" class="footer-title col-4 text-center">Instagram</a>
     </div>
   </footer>
 </template>

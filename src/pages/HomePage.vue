@@ -1,6 +1,8 @@
 <template>
   <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    
+    <h3>Hi, I'm Garrett</h3>
+    <h1>Full Stack Developer</h1>
+    <p>A developer with an eagerness to learn and challenge myself</p>
   </div>
 </template>
 
@@ -14,7 +16,7 @@ export default {
 <style scoped lang="scss">
 .home{
   display: grid;
-  height: 110vh;
+  height: 90vh;
   place-content: center;
   text-align: center;
   user-select: none;
