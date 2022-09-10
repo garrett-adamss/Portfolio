@@ -9,6 +9,12 @@ import { router } from './router'
 const root = createApp(App)
 registerGlobalComponents(root)
 
+window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
+
+
+
 root
   .use(router)
   .mount('#app')

@@ -28,6 +28,7 @@ import { AppState } from './AppState';
 import AboutPage from "./pages/AboutPage.vue";
 import HomePage from "./pages/HomePage.vue";
 import ContactMePage from './pages/ContactMePage.vue';
+import AboutMePage from './pages/AboutMePage.vue';
 
 export default {
   name: "App",
@@ -36,7 +37,7 @@ export default {
       appState: computed(() => AppState)
     };
   },
-  components: { AboutPage, HomePage, ContactMePage }
+  components: { AboutPage, HomePage, ContactMePage, AboutMePage }
 }
 </script>
 <style lang="scss">
